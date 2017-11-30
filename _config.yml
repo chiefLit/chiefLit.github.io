@@ -1,1 +1,40 @@
-theme: jekyll-theme-cayman
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: chiefLit
+google_analytics: chiefLit
+title: chiefLit
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: chiefLit
+
+description: Stylish Jekyll Theme
+author:
+  name: chiefLit
+  email: 158385489@qq.com
+  github: chiefLit
+  twitter:
+  pinterest:
+  linkedin:
+  bio: Your stylish, minimalist theme!
+  email_md5:
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
