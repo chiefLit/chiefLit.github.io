@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: chiefLit
-google_analytics: chiefLit
+google_analytics:
 title: chiefLit
 
 defaults:
